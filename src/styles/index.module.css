@@ -1,0 +1,24 @@
+.header {
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(#ff0000, #ffb000, #fcff00, #6aff00, #00afff, #ff00e4);
+    padding: 1%;
+    color: blue;
+}
+
+.main h1 {
+    font-size: 300%;
+    text-decoration: underline;
+}
+
+.main p {
+    white-space: pre-wrap;
+}
+
+.main img {
+    margin: auto;
+}
