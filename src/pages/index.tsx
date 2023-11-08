@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 import firstImage from "@/images/first.jpg";
 import secondImage from "@/images/second.jpg";
@@ -8,6 +9,9 @@ import { arial, comic, verdana, tahoma } from "@/fonts";
 function AquagymApp() {
     return (
         <>
+            <Head>
+                <title>Ma première page web</title>
+            </Head>
             <div>SNT</div>
             <h1 className={comic.className}>L'aquagym</h1>
             <Link
