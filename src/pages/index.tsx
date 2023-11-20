@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Head from "next/head";
 
 import styles from "@/styles/index.module.css"
 
 import CustomLink from "@/components/CustomLink";
+import FunnyImage from "@/components/FunnyImage";
 import firstImage from "@/images/first.jpg";
 import secondImage from "@/images/second.jpg";
 import { comic, verdana, tahoma } from "@/fonts";
@@ -30,7 +30,7 @@ function AquagymApp() {
                     L'aquagym est souvent accompagné de musique pour motiver les troupes.{'\n'}
                     Bien que cela parraisse facile, il s'agit d'un véritable sport à part entière.{'\n'}
                 </p>
-                <Image src={firstImage} alt="des gens appréciant l'aquagym" height={300}/>
+                <FunnyImage src={firstImage} alt="des gens appréciant l'aquagym" height={300}/>
                 <CustomLink
                     path="https://sante.journaldesfemmes.fr/fiches-sante-du-quotidien/2703409-bienfaits-de-l-aquagym-pour-la-sante-contre-indication-frequence/"
                 >
@@ -44,7 +44,7 @@ function AquagymApp() {
                     <li>Aide les personnes qui souffrent d'arthrose, d'arthrite ou de rhumatismes</li>
                     <li>Apporte de la bonne humeur grâce à la convivialité de ce sport</li>
                 </ul>
-                <Image src={secondImage} alt="d'autres gens appréciant l'aquagym" height={300}/>
+                <FunnyImage src={secondImage} alt="d'autres gens appréciant l'aquagym" height={300}/>
             </main>
         </>
     );

@@ -1,0 +1,14 @@
+.idle {
+    transform: translate(0);
+    transition-duration: 300ms;
+}
+
+.move-left {
+    transform: translateX(-500px);
+    transition-duration: 300ms;
+}
+
+.move-right {
+    transform: translateX(500px);
+    transition-duration: 300ms;
+}
