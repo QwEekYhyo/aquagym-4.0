@@ -1,24 +1,26 @@
-.header {
-    color: black;
-}
-
-.title {
-    width: fit-content;
-    animation-name: rotating;
-    animation-duration: 1400ms;
-}
-
 .main {
-    display: flex;
-    flex-direction: column;
     background-image: radial-gradient(#ff0000, #ffb000, #fcff00, #6aff00, #00afff, #ff00e4);
     padding: 1%;
     color: blue;
 }
 
-.main h1 {
+.header {
+    color: black;
+}
+
+.title {
     font-size: 300%;
     text-decoration: underline;
+    width: fit-content;
+    animation-name: rotating;
+    animation-duration: 1400ms;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    animation-name: appear;
+    animation-duration: 2s;
 }
 
 .main p {
@@ -36,5 +38,19 @@
 
     100% {
         transform: rotate(1080deg) scale(1);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
