@@ -11,6 +11,8 @@
 .link:active {
     color: purple !important;
     text-decoration: none;
+    transform: scale(1.1);
+    transition-duration: 100ms;
 }
 
 .link:visited {

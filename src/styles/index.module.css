@@ -2,6 +2,12 @@
     color: black;
 }
 
+.title {
+    width: fit-content;
+    animation-name: rotating;
+    animation-duration: 1400ms;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -21,4 +27,14 @@
 
 .main img {
     margin: auto;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0) scale(0.3);
+    }
+
+    100% {
+        transform: rotate(1080deg) scale(1);
+    }
 }

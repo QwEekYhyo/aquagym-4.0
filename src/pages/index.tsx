@@ -16,7 +16,7 @@ function AquagymApp() {
             </Head>
             <main className={styles.main}>
                 <div className={styles.header}>SNT</div>
-                <h1 className={comic.className}>L'aquagym</h1>
+                <h1 className={comic.className + " " + styles.title}>L'aquagym</h1>
                 <CustomLink
                     path="https://conseilsport.decathlon.fr/aquagym-5-bonnes-raisons-de-sinscrire-a-des-seances"
                 >
